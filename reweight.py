@@ -77,7 +77,7 @@ parser.add_argument("-bin", type=int, default=50, help="number of bins for the r
 parser.add_argument("-outfile", default="fes_rew.dat", help="output FES filename (default: %(default)s)")
 parser.add_argument("-v", "--verbose", action='store_true', help="be verbose")
 
-
+parser.print_help()
 
 ########################################################
 # PARSING INPUTS
